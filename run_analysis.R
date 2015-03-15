@@ -35,6 +35,9 @@ features <- gsub ("-", "\\.", features)
 features <- gsub ("([a-z])([A-Z])", "\\1\\.\\2", features)
 # then convert all letter to lowercase
 features <- tolower (features)
+# some name have two 'body' appear together, this
+# probably is a typo, so fix it
+features <- gsub ("body\\.body", "body", features)
 
 # Finally apply the transformed names to data
 names (x) <- features

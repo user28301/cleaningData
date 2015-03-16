@@ -1,6 +1,6 @@
 ###There are a total of 68 fields in the data:
 
-1. subject.id - The id of the subject performing the activity
+1. subject.id - id of the subject
 2. timing.body.acc.mean.x - average timing data for body acceleration in x direction
 3. timing.body.acc.mean.y - average timing data for body acceleration in y direction
 4. timing.body.acc.mean.z - average timing data for body acceleration in z direction
@@ -31,16 +31,16 @@
 29. timing.body.gyro.jerk.std.x - standard deviation of timing data for body gyro jerk in x direction
 30. timing.body.gyro.jerk.std.y - standard deviation of timing data for body gyro jerk in y direction
 31. timing.body.gyro.jerk.std.z - standard deviation of timing data for body gyro jerk in z direction
-32. timing.body.acc.mag.mean - average timing data for magnitude of body acceleration
-33. timing.body.acc.mag.std - standard deviation of timing data for magnitude of body acceleration
-34. timing.gravity.acc.mag.mean - average timing data for magnitude of gravity acceleration
-35. timing.gravity.acc.mag.std - standard deviation of timing data for magnitude of gravity acceleration
-36. timing.body.acc.jerk.mag.mean - average timing data for magnitude of body acceleration jerk
-37. timing.body.acc.jerk.mag.std - standard deviation of timing data for magnitude of body acceleration jerk
-38. timing.body.gyro.mag.mean - average timing data for magnitude of body gyro
-39. timing.body.gyro.mag.std - standard deviation of timing data for magnitude of body gyro
-40. timing.body.gyro.jerk.mag.mean - average timing data for magnitude of body gyro jerk
-41. timing.body.gyro.jerk.mag.std -  standard deviation of timing data for magnitude of body gyro jerk
+32. timing.body.acc.mag.mean - average timing data for magnitude of body acceleration 
+33. timing.body.acc.mag.std - standard deviation of timing data for magnitude of body acceleration 
+34. timing.gravity.acc.mag.mean - average timing data for magnitude of gravity acceleration 
+35. timing.gravity.acc.mag.std - standard deviation of timing data for magnitude of gravity acceleration 
+36. timing.body.acc.jerk.mag.mean - average timing data for magnitude of body acceleration jerk 
+37. timing.body.acc.jerk.mag.std - standard deviation of timing data for magnitude of body acceleration jerk 
+38. timing.body.gyro.mag.mean - average timing data for magnitude of body gyro 
+39. timing.body.gyro.mag.std - standard deviation of timing data for magnitude of body gyro 
+40. timing.body.gyro.jerk.mag.mean - average timing data for magnitude of body gyro jerk 
+41. timing.body.gyro.jerk.mag.std - standard deviation of timing data for magnitude of body gyro jerk 
 42. freq.body.acc.mean.x - average frequency data for body acceleration in x direction
 43. freq.body.acc.mean.y - average frequency data for body acceleration in y direction
 44. freq.body.acc.mean.z - average frequency data for body acceleration in z direction
@@ -57,14 +57,14 @@
 55. freq.body.gyro.mean.y - average frequency data for body gyro in y direction
 56. freq.body.gyro.mean.z - average frequency data for body gyro in z direction
 57. freq.body.gyro.std.x - standard deviation of frequency data for body gyro in x direction
-58. freq.body.gyro.std.y - standard deviation of frequency data for body gyro in x direction
-59. freq.body.gyro.std.z - standard deviation of frequency data for body gyro in x direction
-60. freq.body.acc.mag.mean - average frequency data for magnitude of body acceleration
-61. freq.body.acc.mag.std - standard deviation of frequency data for magnitude of body acceleration
-62. freq.body.acc.jerk.mag.mean - average frequency data for magnitude of body acceleration jerk
-63. freq.body.acc.jerk.mag.std - standard deviation of frequency data for magnitude of body acceleration jerk
-64. freq.body.gyro.mag.mean - average frequency data for magnitude of body gyro
-65. freq.body.gyro.mag.std - standard deviation of frequency data for magnitude of body gyro
-66. freq.body.gyro.jerk.mag.mean - average frequency data for magnitude of body gyro jerk
-67. freq.body.gyro.jerk.mag.std - standard deviation of frequency data for magnitude of body gyro jerk
+58. freq.body.gyro.std.y - standard deviation of frequency data for body gyro in y direction
+59. freq.body.gyro.std.z - standard deviation of frequency data for body gyro in z direction
+60. freq.body.acc.mag.mean - average frequency data for magnitude of body acceleration 
+61. freq.body.acc.mag.std - standard deviation of frequency data for magnitude of body acceleration 
+62. freq.body.acc.jerk.mag.mean - average frequency data for magnitude of body acceleration jerk 
+63. freq.body.acc.jerk.mag.std - standard deviation of frequency data for magnitude of body acceleration jerk 
+64. freq.body.gyro.mag.mean - average frequency data for magnitude of body gyro 
+65. freq.body.gyro.mag.std - standard deviation of frequency data for magnitude of body gyro 
+66. freq.body.gyro.jerk.mag.mean - average frequency data for magnitude of body gyro jerk 
+67. freq.body.gyro.jerk.mag.std - standard deviation of frequency data for magnitude of body gyro jerk 
 68. activity - the activity the subject is performing

@@ -42,9 +42,26 @@ features <- gsub ("body\\.body", "body", features)
 # Finally apply the transformed names to data
 names (x) <- features
 names (subject) <- c ("subject.id")
-remove (features)
 
 # Step 5 - create a tidy data set and write it out
 tidy <- cbind (subject, x, activity)
 remove (subject, x, activity)
 write.table (tidy, file = "tidy.data.txt", row.name = FALSE)
+
+# create code book from features
+features = c ("subject.id", features, "activity")
+desc <- gsub ("\\.", " ", features)
+desc <- gsub ("freq", "frequency", desc)
+desc <- gsub ("acc", "acceleration", desc)
+desc <- gsub ("^([^ ]*) (.*)mean", "average \\1 data for \\2", desc)
+desc <- gsub ("^([^ ]*) (.*)std", "standard deviation of \\1 data for \\2", desc)
+desc <- gsub ("(x|y|z)$", "in \\1 direction", desc)
+desc <- gsub ("for (.*) mag", "for magnitude of \\1", desc)
+desc <- gsub ("  ", " ", desc)
+desc <- gsub ("activity", "the activity the subject is performing", desc)
+desc <- gsub ("subject id", "id of the subject", desc)
+desc <- paste (c (1:68), ". ", features, " - ", desc, sep="")
+desc <- c ("###There are a total of 68 fields in the data:", "", desc)
+
+write.table (desc, "CodeBook.md", row.names=FALSE, col.names=FALSE, quote=FALSE)
+remove (features, desc)

@@ -10,7 +10,9 @@ There are three (3) files in this repo:
 Here we assume that the data has been downloaded and saved.
 The R working directory has been set to the top level data folder
 The resulting clean data set will be written to this top level
-folder with the name "tidy.data.txt"
+folder with the name "tidy.data.txt".
+
+Note that the R script also creates the code book file.
 
 To obtain the tidy data set, simply run this script and the data
 set will be created and saved.
